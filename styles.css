@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1000px;
+    min-height: 100vh;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    background: url('earth.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: -20px -20px 0 -20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-text {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 8px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #004080;
+    margin: 0 -20px 0 -20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    background: #0059b3;
+    border-right: 1px solid white;
+    flex: 1;
+}
+.nav a:last-child {
+    border-right: none;
+}
+.nav a:hover {
+    background: #003366;
+}
+h2 {
+    color: #004080;
+}
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+.article-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.author-name {
+    margin: 12px 0 12px 0;
+}
+.article-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.save-image-container, .save-image {
+    width: 36px;
+    height: 36px;
+}
